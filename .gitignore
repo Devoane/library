@@ -1,0 +1,12 @@
+# Katalogi Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pliki testowe
+.pytest_cache/
+
+# Pliki środowiskowe
+.env
+venv/
