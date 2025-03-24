@@ -72,7 +72,7 @@ The library includes:
     ```
 2. To install the library locally:
     ```bash
-    pip install -e 
+    pip install .
     ```
 ## 💾 Tests.
 ```bash
