@@ -1,7 +1,7 @@
 # *Library_Task3*
 
 ## 📌 Description
-**Library_Task3** is a Python library that provides various utility functions for text processing, file handling, and statistical analysis.  
+**datatools** is a Python library that provides various utility functions for text processing, file handling, and statistical analysis.  
 It is designed to make it easier to work with text data, process files, and perform common file operations such as reading, writing, and parsing.  
 The library also includes functions for basic statistical analysis, such as calculating the mean, median, and mode of datasets.
 
@@ -104,7 +104,7 @@ print(common_words)  # Output: [('is', 2), ('a', 1), ('sample', 1)]
 ### Example 2: File Handling.
 
 ```python
-from Library_Task3.file_utils import read_text_file, read_csv_to_dict, save_to_json
+from datatools.file_utils import read_text_file, read_csv_to_dict, save_to_json
 
 # Read text file
 text = read_text_file("example.txt")
@@ -122,7 +122,7 @@ save_to_json(data, "output.json")
 ### Example 3: Statystic Analysis.
 
 ```python
-from Library_Task3.stats_analysis import mean, median, standard_deviation
+from datatools.stats_analysis import mean, median, standard_deviation
 
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
