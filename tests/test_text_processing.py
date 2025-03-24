@@ -9,7 +9,7 @@ import os
 # Add the parent directory to the path to import my_awesome_lib
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from my_awesome_lib import text_processing
+from datatools import text_processing
 
 class TestTextProcessing(unittest.TestCase):
     
