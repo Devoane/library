@@ -70,7 +70,11 @@ The library includes:
     ```bash
     git clone https://github.com/Devoane/library.git
     ```
-2. To install the library locally:
+2. Go to "library" catalog
+    ```bash
+    cd library
+    ```
+4. To install the library locally:
     ```bash
     pip install .
     ```
