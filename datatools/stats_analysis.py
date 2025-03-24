@@ -3,7 +3,7 @@ Module containing functions for statistical analysis.
 """
 
 import math
-from typing import List, Union, Optional
+from typing import List, Union
 
 def mean(numbers: List[Union[int, float]]) -> float:
     """
