@@ -70,14 +70,14 @@ The library includes:
     ```bash
     git clone https://github.com/Devoane/library.git
     ```
-2. Navigate to the project directory:
+2. To install the library locally:
     ```bash
-    cd Library_Task3
+    pip install -e 
     ```
-3. To install the library locally:
-    ```bash
-    pip install -e .
-    ```
+## 💾 Tests.
+```bash
+python -m unittest discover tests
+```
 
 ## 💻 Examples of Usage
 
